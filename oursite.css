@@ -1,4 +1,78 @@
 
-h1 {
-    color: royalblue
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
+
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f3f4f6;
+color: #333;
+line-height: 1.6;
+padding: 20px;
+}
+
+/* Container for the entire menu */
+.menu-container {
+max-width: 1200px;
+margin: auto;
+padding: 20px;
+background: #ffffff;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+.menu-heading {
+font-size: 24px;
+color: #4a7c59;
+border-bottom: 2px solid #d4e2d4;
+margin-bottom: 20px;
+padding-bottom: 5px;
+}
+
+/* Section for menu categories */
+.menu-section {
+margin-bottom: 30px;
+}
+
+/* Individual items */
+.menu-item {
+background: #e8f0e8;
+padding: 10px;
+margin-bottom: 10px;
+border-left: 5px solid #4a7c59;
+font-weight: bold;
+}
+
+/* Booster Section */
+.boosters-section {
+columns: 2;
+-webkit-columns: 2;
+-moz-columns: 2;
+}
+
+.boosters-item {
+background: #e0f7fa;
+padding: 10px;
+margin-bottom: 10px;
+border-left: 5px solid #00838f;
+page-break-inside: avoid;
+break-inside: avoid-column;
+}
+
+/* Acai Bowls Section */
+.acai-section {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.acai-item {
+background: #ffe0b2;
+padding: 10px;
+margin-bottom: 10px;
+width: calc(50% - 10px);
+border-left: 5px solid #fb8c00;
+}
+
