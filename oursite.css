@@ -1,7 +1,7 @@
 .footer {
-    background-image: url('https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/footer.jpg?raw=true');
+    background-image: url('footer.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px; /* Adjust this value as needed */
-  }
+    height: 150px; /* Set the height to whatever is appropriate for your design */
+  }  
