@@ -1,8 +1,8 @@
 .footer {
-    background-image: url('footer.jpg'); 
-    background-size: 20px 15px; 
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 15px; 
-  }
-  
+    background-image: url('footer.jpg'); /* Adjust the path if the image is in a different folder */
+    background-size: contain; /* Ensures the image is fully visible */
+    background-position: center; /* Centers the image in the footer */
+    background-repeat: no-repeat; /* The image will not repeat */
+    height: 150px; /* Set to the height of your footer */
+    width: 100%; /* Set to the width of your footer, assuming it spans the full page width */
+  }  
