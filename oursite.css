@@ -1,5 +1,7 @@
-.footer img {
-    width: 100%;    
-    height: auto;   
-  }
-  
+.footer {
+    background-image: url('https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/footer.jpg?raw=true');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px; 
+  }  
