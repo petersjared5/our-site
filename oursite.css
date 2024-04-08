@@ -1,11 +1,10 @@
-/* Apply a basic reset */
+/* Global styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Style for the body */
   body {
     font-family: 'Arial', sans-serif;
     background-color: #f3f4f6;
@@ -14,6 +13,7 @@
     padding: 20px;
   }
   
+  /* Since Bootstrap is included, ensure custom styles have enough specificity */
   /* Container for the entire menu */
   .menu-container {
     max-width: 1200px;
@@ -33,11 +33,6 @@
     padding-bottom: 5px;
   }
   
-  /* Section for menu categories */
-  .menu-section {
-    margin-bottom: 30px;
-  }
-  
   /* Individual items */
   .menu-item {
     background: #e8f0e8;
@@ -45,6 +40,11 @@
     margin-bottom: 10px;
     border-left: 5px solid #4a7c59;
     font-weight: bold;
+  }
+  
+  /* Section for menu categories */
+  .menu-section {
+    margin-bottom: 30px;
   }
   
   /* Booster Section */
