@@ -2,4 +2,6 @@
     background-image: url('https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/footer.jpg?raw=true');
     background-size: cover;
     background-position: center;
-}
+    background-repeat: no-repeat;
+    height: 150px; /* Adjust this value as needed */
+  }
